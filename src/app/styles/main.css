@@ -1,0 +1,29 @@
+@import "@fontsource-variable/dm-sans";
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: "DM Sans Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --default-font-size: 15px;
+  --default-line-height: 1.5;
+  --color-background: #0f0f0f;
+  --color-fg: #f0ede8;
+  --color-fg-muted: #6b6b6b;
+  --color-primary: #e8c97a;
+  --color-secondary: #1e1e1e;
+  --color-muted: #252525;
+  --color-card: #161616;
+  --color-stroke: #2a2a2a;
+  --color-accent: #c0392b;
+}
+
+body {
+  font-size: var(--default-font-size);
+  font-optical-sizing: auto;
+  line-height: var(--default-line-height);
+  background-color: var(--color-background);
+  color: var(--color-fg);
+}
+
+.container {
+  @apply max-w-360 mx-auto px-4 xl:px-8;
+}
