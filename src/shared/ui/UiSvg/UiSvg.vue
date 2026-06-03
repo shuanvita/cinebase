@@ -1,5 +1,5 @@
-// TODO переписать компонент
 <script setup lang="ts">
+// TODO переписать компонент
 import { defineAsyncComponent, shallowRef, watch } from 'vue'
 import type { VSvgTypes } from '@/shared/ui/UiSvg/UiSvg.types.ts'
 
