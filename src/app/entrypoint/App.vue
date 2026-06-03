@@ -1,11 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from '@/widgets/AppHeader'
+import HomePage from '@/pages/HomePage'
+import AppFooter from '@/widgets/AppFooter'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <AppHeader />
+  <HomePage />
+  <AppFooter />
 </template>
-
-<style scoped></style>
